@@ -9,7 +9,7 @@
  */
 
 export class Calculator {
-  constructor(a) {
+  constructor(a, b) {
     this.a = a;
     this.b = b;
     this.result = 0;
