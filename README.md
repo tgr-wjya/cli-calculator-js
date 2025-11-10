@@ -84,6 +84,11 @@ I built it with 4 arithmetic operation, could've been more honestly.
 - While I do touched on `do while` loop, I didn't really get into the classic `for` loop.
 - My Markdown skill actually isn't that bad, huh?
 
+## ABOUT RUNTIME
+
+- The choice is between [Bun](https://bun.com/) and [Deno](https://deno.com/).
+- I prefer Bun because of its raw performance. I don't know if it even matter since my JS program are simple anyway; performance doesn't matter here.
+
 ---
 
 <div align=center>
