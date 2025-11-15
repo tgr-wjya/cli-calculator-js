@@ -66,7 +66,7 @@ do {
         console.log("Please enter the arithmetic operation again");
         loopOrNotArithmetic = false;
       }
-    } while (loopOrNotArithmetic === false); // ! BUG: This was `false` which would've exit. Should be `true`
+    } while (loopOrNotArithmetic === false);
   } else {
     console.log("\nPlease re-enter value...");
   }
