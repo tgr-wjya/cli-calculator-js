@@ -32,10 +32,9 @@ export class Calculator {
 
     console.log(`Result: ${this.result}`);
   }
-  // FIX the cannot divide by zero.
-  // ? Look into this later, it works for now.
+  // Check division, fixed the bug dividing with zero.
   division() {
-    if (this.a || this.b === 0) {
+    if (this.b === 0) {
       console.log("Cannot divide by zero.");
     } else {
       this.result = this.a / this.b;
